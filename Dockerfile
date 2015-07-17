@@ -2,7 +2,6 @@ FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y python-pip python-dev libpq-dev git curl
 RUN mkdir /app
-WORKDIR /app
 
 ENV version 2.3.3
 COPY requirements.txt /
