@@ -1,4 +1,4 @@
-FROM index.alauda.cn/dubuqingfeng/centos7-mongodb
+FROM ubuntu:latest
 
 RUN apt-get update && apt-get install -y python-pip python-dev libpq-dev git curl
 RUN mkdir /app
