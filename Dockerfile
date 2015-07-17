@@ -9,4 +9,7 @@ COPY requirements.txt /
 RUN ls -al requirements.txt
 RUN pip install -r requirements.txt
 
+COPY . /app
+RUN cat /app/Dockerfile
+
 CMD ["bash"]
