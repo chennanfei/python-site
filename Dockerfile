@@ -1,3 +1,3 @@
-FROM tutum/apache-php:latest
+FROM index.int.alauda.io/alauda/hello-world:latest
 
-ENV version '1.0'
+COPY server.py /app
